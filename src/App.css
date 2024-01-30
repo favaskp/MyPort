@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+
+.nav_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    gap: 10px;
+    padding: 5px;
+}
+.nav_menus{
+    background-color: lightpink;
+    padding: 5px;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s ease-in-out;
+}
+.nav_menus:hover{
+    box-shadow: 0 0 10px grey;
+    background-color: palevioletred;
+}
+.nav_menus:active{
+    background-color: darkred;
+    color: white;
+}
+.active_menu{
+    background-color: darkred ;
+    color: white;
+    box-shadow: 2px 5px 10px rgb(30, 30, 30);
+}
+
+
+.logo_section{
+    background-color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.logo_section img{
+    width: 5vw;
+    max-width: 74px;
+    mix-blend-mode: darken;
+}
+
+.logo_section h6{
+    font-family: 'Kanit', sans-serif;
+    font-size: calc(1vw + min(0.8rem, 11px));
+}
+.logo_heading{
+    display: grid;
+    place-items: center;
+}
+
+
+.app_main{
+    display: flex;
+    height: 100%;
+}
+.main{
+    width: 25%;
+    max-width: 300px;
+    min-width: 150px;
+    background-color: lightgrey;
+}
+.view_section_main{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+.view_section_sub{
+    padding: 30px;
+    height: 90%;
+}
